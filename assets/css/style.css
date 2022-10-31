@@ -17,3 +17,8 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+
+#foot {
+  background-color: rgb(246, 61, 187);
+  color: white;
+}
