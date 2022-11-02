@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/carousel.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -67,8 +69,40 @@
 
   <!-- Sobre Nós -->
   <div class="w3-container" style="padding:128px 16px" id="about">
-    <h3 class="w3-center">SOBRE NÓS</h3>
-    
+    <h3 class="w3-center">SOBRE NÓS </h3>
+    <br>
+    <br>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item-1 active">
+          <div class="container ">
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-2">
+          <div class="container">
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-3">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterios</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+      </button>
+    </div>
+  
+
     <div class="w3-row-padding w3-center" style="margin-top:64px">
       <div class="w3-quarter">
         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-calendar w3-margin-bottom w3-jumbo w3-center" viewBox="0 0 16 16">
@@ -384,6 +418,7 @@
   </footer>
 
   <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
