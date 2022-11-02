@@ -22,3 +22,39 @@ body, html {
   background-color: rgb(246, 61, 187);
   color: white;
 }
+
+/* Carrossel (Por enquanto presente só em relatos)*/
+#conteudo {
+  width: 100%;
+}
+
+#carrossel {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: 1.2rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+#carrossel::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #fff;
+}
+
+#carrossel::-webkit-scrollbar-thumb{
+  background: #000;
+}
+
+#card {
+  scroll-snap-align: start;
+  border-radius: 30px;
+  min-height: 200px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
