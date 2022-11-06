@@ -1,40 +1,45 @@
-.container1{
-    background-color: rgba(193, 241, 216, 0.774);
+
+    
+
+.div1{
+    background-color: rgba(227, 248, 237, 0.774);
     height:100%;
     margin-top: 0%;
     padding: 1%;
     
 }
-.container2{
+
+.div2{
     background-color: rgb(246, 61, 187);
     width: 30%;
-    height: 60%;
+    height: 61%;
     left: 20%;
     margin-top: 0%;
     position: absolute;
 
 
 }
-.container4{
+.div4{
     background-color: rgba(231, 140, 170, 0.774);
     width: 30%;
-    height: 76%;
+    height: 75%;
     left: 50%;
     margin-top: 0%;
     position: relative;
 }
-/*configuração de h e texto */
+
+/*responssive para tela moble*/
+@media screen and (min-width:1px){
+/*configuração de h1 e texto */
 h1#doacao{
     text-align: center;
-    color: rgb(246, 61, 187);
+    color: #008000;
     font-size: 300%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgba(193, 241, 216, 0.774);
     width: 28%;
     height: 14%;
     margin-left:35%;
     margin-top: 0%;
-    /*border-radius: 15%;*/
     animation: animate 1.10s linear infinite;
     
 }
@@ -52,14 +57,14 @@ h1#doacao{
 
     }
 }
-
-/*configurando texto da class conteiner1*/
+}
+/*configurando texto da class div1*/
 h2#nomeentidade{
     text-align: center;
     color: aliceblue;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 25%; 
+    margin-top: 30%; 
 }
 
 h3#nomeentidade2{
@@ -69,25 +74,24 @@ h3#nomeentidade2{
     font-family: Arial, Helvetica, sans-serif; 
     margin-top: -4%;
 }
-/*configurando texto da class conteiner3 pix*/
+/*configurando texto da class div3 pix*/
 h3#nomepix{
 
     text-align: center;
     color: aliceblue;
-    font-size: 199%;
+    font-size: 200%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 33%;
-    left: 19%;
+    margin-top: 35%;
 
 }
-/*configurando texto da class conteiner4*/
+/*configurando texto da class div4*/
 h1#casaentidade{
 
     text-align: center;
     color: aliceblue;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 0%;
+    margin-top: 1%;
     
 }
 h2#casaentidade2{
@@ -105,8 +109,7 @@ p#textmotivacional1{
     color: aliceblue;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top:20%;
-
+    margin-top: 25%;
 }
 p#textmotivacional2{
 
@@ -114,7 +117,7 @@ p#textmotivacional2{
     color: aliceblue;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: -5%;
+    margin-top: -4%;
     
 }
 p#textmotivacional3{
@@ -123,24 +126,19 @@ p#textmotivacional3{
     color: aliceblue;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: -5%;
-    
+    margin-top: -4%;
 }
 p#animacaodoar{
     text-align: center;
     color: aliceblue;
-    font-size: 150%;
+    font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:rgb(246, 61, 187);
-    width: 50%;
-    height: 12%;
-    margin-left:26%;
-    margin-top: 20%;   
+    margin-top: 10%; 
 }
 
   
   
-/*configurando imagens da class conteiner1*/
+/*configurando imagens da class conteiner1 com imagens logo e qrcode*/
 .logo img{
     width: 30%;
     height: 30%;
@@ -151,7 +149,7 @@ p#animacaodoar{
 }
 
 /*configurando imagens da class conteiner3*/
-.container3 img{
+.div3 img{
     background-color: rgba(58, 40, 46, 0.774);
     position: absolute;
     width: 25%;
@@ -161,5 +159,5 @@ p#animacaodoar{
     
 }
 
-/*fim de configurando imagens*/
 
+/*fim de configurando imagens e de @media moble*/
