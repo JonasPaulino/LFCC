@@ -2,7 +2,7 @@
     
 
 .div1{
-    background-color:  aliceblue;
+    background-color:  white;
     /*#e91e63;*/
     width: 100%;
     height:100%;
@@ -12,7 +12,7 @@
 }
 
 .div2{
-    background-color: rgba(231, 140, 170, 0.774);
+    background-color: #e91e63;
     width: 25%;
     height: 50%;
     left: 26%;
