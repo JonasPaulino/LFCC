@@ -10,7 +10,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("../img/mac.jpg");
+  background-image: url("../img/liga_feminina.jpg");
   min-height: 100%;
 }
 
@@ -93,7 +93,7 @@ body, html {
   position: absolute;
   width: 120%;
   height: 120%;
-  background: linear-gradient(#00c6ff, #0072ff);
+  background: linear-gradient(#fd96fd, #ff6ffd);
   transform:  rotate(45deg);
   left: -110%;
   top: 90%;
