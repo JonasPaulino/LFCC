@@ -29,7 +29,7 @@
 }
 
 /*responssive para tela moble*/
-@media screen and (min-width:1px){
+/*@media screen and (min-width:1px){*/
 /*configuração de h1 e texto */
 h1#doacao{
     text-align: center;
@@ -57,7 +57,7 @@ h1#doacao{
 
     }
 }
-}
+/*}*/
 /*configurando texto da class div1*/
 h2#nomeentidade{
     text-align: center;
