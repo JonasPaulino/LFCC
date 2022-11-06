@@ -2,17 +2,19 @@
     
 
 .div1{
-    background-color: rgba(227, 248, 237, 0.774);
+    background-color:  aliceblue;
+    /*#e91e63;*/
+    width: 100%;
     height:100%;
-    margin-top: 0%;
+    margin-top: 2%;
     padding: 1%;
     
 }
 
 .div2{
-    background-color: rgb(246, 61, 187);
+    background-color: rgba(231, 140, 170, 0.774);
     width: 30%;
-    height: 61%;
+    height: 50%;
     left: 20%;
     margin-top: 0%;
     position: absolute;
@@ -22,7 +24,7 @@
 .div4{
     background-color: rgba(231, 140, 170, 0.774);
     width: 30%;
-    height: 75%;
+    height: 50%;
     left: 50%;
     margin-top: 0%;
     position: relative;
@@ -33,7 +35,7 @@
 /*configuração de h1 e texto */
 h1#doacao{
     text-align: center;
-    color: #008000;
+    color: #e91e63;
     font-size: 300%;
     font-family: Arial, Helvetica, sans-serif;
     width: 28%;
@@ -62,15 +64,15 @@ h1#doacao{
 h2#nomeentidade{
     text-align: center;
     color: aliceblue;
-    font-size: 200%;
+    font-size: 150%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 30%; 
+    margin-top: 21%; 
 }
 
 h3#nomeentidade2{
     text-align: center;
     color: aliceblue;
-    font-size: 200%;
+    font-size: 150%;
     font-family: Arial, Helvetica, sans-serif; 
     margin-top: -4%;
 }
@@ -81,7 +83,7 @@ h3#nomepix{
     color: aliceblue;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 35%;
+    margin-top: 27%;
 
 }
 /*configurando texto da class div4*/
@@ -109,7 +111,7 @@ p#textmotivacional1{
     color: aliceblue;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 25%;
+    margin-top: 17%;
 }
 p#textmotivacional2{
 
@@ -155,7 +157,7 @@ p#animacaodoar{
     width: 25%;
     height: 25%;
     left: 36%;
-    margin-top: 10%;
+    margin-top: 8%;
     
 }
 
