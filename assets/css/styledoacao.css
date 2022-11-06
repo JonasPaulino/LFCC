@@ -13,9 +13,9 @@
 
 .div2{
     background-color: rgba(231, 140, 170, 0.774);
-    width: 30%;
+    width: 25%;
     height: 50%;
-    left: 20%;
+    left: 26%;
     margin-top: 0%;
     position: absolute;
 
@@ -23,9 +23,9 @@
 }
 .div4{
     background-color: rgba(231, 140, 170, 0.774);
-    width: 30%;
+    width: 25%;
     height: 50%;
-    left: 50%;
+    left: 51%;
     margin-top: 0%;
     position: relative;
 }
@@ -42,23 +42,10 @@ h1#doacao{
     height: 14%;
     margin-left:35%;
     margin-top: 0%;
-    animation: animate 1.10s linear infinite;
+
     
 }
 
-@keyframes animate{
-
-    0%{ 
-        opacity: 0;
-    }
-    50%{ 
-        opacity: 0.7;
-    }
-    30%{
-        opacity: 0;
-
-    }
-}
 /*}*/
 /*configurando texto da class div1*/
 h2#nomeentidade{
@@ -66,7 +53,7 @@ h2#nomeentidade{
     color: aliceblue;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 21%; 
+    margin-top: 26%; 
 }
 
 h3#nomeentidade2{
@@ -74,7 +61,7 @@ h3#nomeentidade2{
     color: aliceblue;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: -4%;
+    margin-top: -5%;
 }
 /*configurando texto da class div3 pix*/
 h3#nomepix{
@@ -83,7 +70,7 @@ h3#nomepix{
     color: aliceblue;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif; 
-    margin-top: 27%;
+    margin-top: 32%;
 
 }
 /*configurando texto da class div4*/
@@ -132,12 +119,27 @@ p#textmotivacional3{
 }
 p#animacaodoar{
     text-align: center;
-    color: aliceblue;
+    color: #e91e63;
     font-size: 200%;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10%; 
+    margin-top: 13%; 
+    animation: animate 1.10s linear infinite;
+    
 }
 
+@keyframes animate{
+
+    0%{ 
+        opacity: 0;
+    }
+    50%{ 
+        opacity: 0.7;
+    }
+    30%{
+        opacity: 0;
+
+    }
+}
   
   
 /*configurando imagens da class conteiner1 com imagens logo e qrcode*/
@@ -157,7 +159,7 @@ p#animacaodoar{
     width: 25%;
     height: 25%;
     left: 36%;
-    margin-top: 8%;
+    margin-top: 10%;
     
 }
 
