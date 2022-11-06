@@ -22,3 +22,28 @@
   function w3_close() {
     mySidebar.style.display = "none";
   }
+
+  // Abrir link de redes sociais
+  var abrirInsta = document.getElementById('abrirInsta');
+  var abrirFacebook = document.getElementById('abrirFacebook');
+  var insta = "https://www.instagram.com/ligafemininanh/";
+  var facebook = "https://www.facebook.com/LigaFemininaNH";
+
+        //instagram
+  function openInNewTap(insta) {
+    var win1 = window.open(insta, '_blanck')
+    win1.focus();
+  }
+
+  abrirInsta.addEventListener('click', () => {
+    openInNewTap(insta)
+  })
+        //facebook
+  function openInNewTap(facebook) {
+    var win2 = window.open(facebook, '_blanck')
+    win2.focus();
+  }
+
+  abrirFacebook.addEventListener('click', () => {
+    openInNewTap(facebook)
+  })
