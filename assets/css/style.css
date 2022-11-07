@@ -6,6 +6,12 @@ body, html {
   scroll-behavior: smooth;
 }
 
+/*Nav-Bar*/
+#logo-navbar{
+  width: 10%;
+  height: 4rem;
+}
+
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
@@ -17,24 +23,29 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+
 /*Rodapé da página*/
 .w3-pink{
   border-top: 1px solid transparent;
 }
-.w3-button{
+
+#btn-footer{
   margin-top: 70px;
 }
+
 .footer-bottom {
   border-top: 1px solid #DDDDDD;
   margin-top: 120px;
 }
+
 .footer-bottom p.pull-left {
   padding-top: 6px;
   font-size: 0.75em
 }
+
 div h4 {
   display: block; 
-  color: white;
+  color: #fff;
   font-weight: 600;
   line-height: 38px;
   margin: 0;
@@ -43,9 +54,10 @@ div h4 {
   left: 60px;
   margin-top: 50px;
 }
+
 .adress{
   display: block;
-  color: white;
+  color: #fff;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -54,21 +66,24 @@ div h4 {
   list-style: none;
   text-align: left;
 }
+
 .email{
   font-size: 15px;
 }
+
 div h3{
   display: block;
-  color: white;
+  color: #fff;
   margin: 0;
   padding: 0;
   position: absolute;
   right: 268px;
   margin-top: 50px;
 }
+
 div ul{
   display: block;
-  color: white;
+  color: #fff;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -77,17 +92,20 @@ div ul{
   list-style: none;
   text-align: left;
 }
+
 li a{
   font-size: 13px;
-  color: white;
+  color: #fff;
   text-decoration: none;
   list-style: none;
 }
+
 .container p {
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 30px;
 }
+
 /* Carrossel dos Relatos */
 #conteudo {
   width: 100%;
@@ -107,12 +125,10 @@ li a{
 #carrossel::-webkit-scrollbar {
   width: 5px;
   height: 8px;
-  background-color: #fff;
   background-color: #FFBED8;
 }
 
 #carrossel::-webkit-scrollbar-thumb{
-  background: #000;
   background: #e91e63;
 }
 
