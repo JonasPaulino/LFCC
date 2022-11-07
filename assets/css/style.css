@@ -18,11 +18,76 @@ body, html {
   padding: 16px;
 }
 /*Rodapé da página*/
-#foot {
-  background-color: rgb(246, 61, 187);
-  color: aliceblue;
+.w3-pink{
+  border-top: 1px solid transparent;
 }
-
+.w3-button{
+  margin-top: 70px;
+}
+.footer-bottom {
+  border-top: 1px solid #DDDDDD;
+  margin-top: 120px;
+}
+.footer-bottom p.pull-left {
+  padding-top: 6px;
+  font-size: 0.75em
+}
+div h4 {
+  display: block; 
+  color: white;
+  font-weight: 600;
+  line-height: 38px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 60px;
+  margin-top: 50px;
+}
+.adress{
+  display: block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 250px;
+  margin-top: 90px;
+  list-style: none;
+  text-align: left;
+}
+.email{
+  font-size: 15px;
+}
+div h3{
+  display: block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 268px;
+  margin-top: 50px;
+}
+div ul{
+  display: block;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 60px;
+  margin-top: 70px;
+  list-style: none;
+  text-align: left;
+}
+li a{
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.container p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
 /* Carrossel dos Relatos */
 #conteudo {
   width: 100%;
